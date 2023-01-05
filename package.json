@@ -1,0 +1,24 @@
+{
+  "name": "MovieApp",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000a\u0000u\u0000-\u0000W\u0000e\u0000b\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkkabacelik/Sau-WebProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkkabacelik/Sau-WebProject/issues"
+  },
+  "homepage": "https://github.com/berkkabacelik/Sau-WebProject#readme"
+}
