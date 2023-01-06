@@ -18,7 +18,7 @@ namespace MovieApp
     public class Startup
     {
         
-        public void ConfigureServices(IServiceCollection service)
+        public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc()
             .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -37,7 +37,7 @@ namespace MovieApp
             
 
             //modules/bootstrap/dist/css/bootstrap.min.css
-
+            
 
             if (env.IsDevelopment())
             {

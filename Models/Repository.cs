@@ -13,11 +13,11 @@ namespace MovieApp.Models
         {
             _movies = new List<Movie>()
             {
-                new Movie() {Id=1, Name="Shazam", Description="Shazam", ImageUrl=""},
-                new Movie() {Id=2, Name="Amazing Grace", Description="Amazing Grace", ImageUrl=""},
-                new Movie() {Id=3, Name="High Life", Description="High Life", ImageUrl=""},
-                new Movie() {Id=4, Name="Billboard", Description="Billboard", ImageUrl=""},
-                new Movie() {Id=5, Name="Storm Boy", Description="Storm Boy", ImageUrl=""}
+                new Movie() {Id=1, Name="Shazam", Description="Shazam", ImageUrl="shazam.jpg"},
+                new Movie() {Id=2, Name="Amazing Grace", Description="Amazing Grace", ImageUrl="amazing_grace.jpg"},
+                new Movie() {Id=3, Name="High Life", Description="High Life", ImageUrl="high_life.jpg"},
+                new Movie() {Id=4, Name="Billboard", Description="Billboard", ImageUrl="billboard.jpg"},
+                new Movie() {Id=5, Name="Storm Boy", Description="Storm Boy", ImageUrl="storm_boy.jpg"}
 
 
             };
@@ -34,15 +34,15 @@ namespace MovieApp.Models
 
         }
         
-        public static AddMovie(Movie entity)
+        public static void AddMovie(Movie entity)
         {
             _movies.Add(entity);
 
         }
-
+ 
         public static Movie GetById(int id)
         {
-            return _movies.FirstOrDefault(i => i.Id ==i);
+            return _movies.FirstOrDefault(i => i.Id ==id);
 
         }
         
